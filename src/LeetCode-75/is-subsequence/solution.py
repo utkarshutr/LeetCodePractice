@@ -47,4 +47,3 @@ s = "axc"
 t = "adhxhc"
 sol = Solution()
 print(sol.isSubsequence(s, t))
-print("end")
