@@ -1,6 +1,6 @@
 """
 Solution Description:
- - If you thought of very basic solution to check number of unique characters in each string. You are 50% correct.
+ - If you thought of very basic solution.py to check number of unique characters in each string. You are 50% correct.
     But some test cases may fail. For example: s=abab, t=bbbb -- these are not isomorphic
 
  - So, the first step is to check number of unique characters. If unique characters don't match, means not isomorphic.
