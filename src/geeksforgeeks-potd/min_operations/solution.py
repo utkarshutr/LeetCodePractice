@@ -3,7 +3,10 @@ class Solution:
         if a == b:
             return 0
 
-        a_and_b = a ^ b
+        if a == 0 or b == 0:
+            return 1
+
+        a_and_b = a & b
         if a_and_b == a or a_and_b == b:
             return 1
 
@@ -11,9 +14,8 @@ class Solution:
 
 
 if __name__ == "__main__":
-    t = 1
-    input1 = [5, 100]
-    input2 = [12, 100]
+    input1 = [5, 100, 94]
+    input2 = [12, 100, 8]
     for input in zip(input1, input2):
         a = int(input[0])
         b = int(input[1])
