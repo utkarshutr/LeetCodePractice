@@ -22,8 +22,8 @@ class Solution:
 
 
 if __name__ == '__main__':
-    input1 = ["abcd"]
-    input2 = ["cdabcdab"]
+    input1 = ["abcd", "ab"]
+    input2 = ["cdabcdab", "cab"]
     for in1, in2 in zip(input1, input2):
         A = in1
         B = in2
